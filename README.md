@@ -51,3 +51,39 @@ Clone the repository and install dependencies:
 git clone https://github.com/your-username/financial-prospectus-insights.git
 cd financial-prospectus-insights
 pip install -r requirements.txt
+```
+
+# Usage
+
+Run the Streamlit application:
+
+```bash
+streamlit run app/app.py
+```
+
+## Steps
+
+1. **Upload** a financial prospectus (PDF).  
+2. **Wait** for the system to extract data and analyze it.  
+3. **View** key financial ratios, risk heatmaps, and executive summaries.  
+4. **Export** the summary report as PDF if needed.
+
+ ## Tools Used
+
+- Python (Pandas, NumPy, Matplotlib, Plotly)
+- Streamlit
+- FAISS
+- OpenAI GPT or compatible free LLMs
+- Git & GitHub for version control
+
+---
+
+## Project Purpose
+
+This project automates the extraction and analysis of financial prospectuses, such as IPO and mutual fund documents. It helps investors, analysts, and stakeholders gain key insights, identify potential risks, and generate executive summaries efficiently.
+
+---
+
+## 📬 Contact
+
+Built by [@weiiilunnnn](https://github.com/weiiilunnnn)
