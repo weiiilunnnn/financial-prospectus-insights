@@ -70,12 +70,12 @@ streamlit run app/app.py
 
  ## Tools Used
 
-- Python (Pandas, NumPy, Matplotlib, Plotly)
-- Streamlit
-- FAISS
-- OpenAI GPT or compatible free LLMs
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- LangChain
+- LLaMA 3
+- Jupyter Notebook
+- Power BI
 - Git & GitHub for version control
-
 ---
 
 ## Project Purpose
