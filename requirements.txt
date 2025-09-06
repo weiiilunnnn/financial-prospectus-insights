@@ -1,0 +1,16 @@
+langchain
+openai
+pydantic
+pdfplumber
+pymupdf
+tqdm
+faiss-cpu
+streamlit
+matplotlib
+pillow
+numpy
+requests
+fpdf
+plotly.express
+plotly
+langchain_community

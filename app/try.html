@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Puter.js LLM Test</title>
+    <script src="https://js.puter.com/v2/"></script>
+</head>
+<body>
+    <h1>Puter.js Test Output</h1>
+    <pre id="output"></pre>
+
+    <script>
+        async function runTest() {
+            const prompt = `
+                Extract the main risks and fees from the following text:
+                "Sample prospectus text: management fees 2%, top risk includes market volatility, liquidity issues, and interest rate changes."
+            `;
+
+            const response = await puter.ai.chat(prompt, { model: "gpt-5" });
+            
+            // Display in page
+            document.getElementById("output").innerText = JSON.stringify(response, null, 2);
+        }
+
+        runTest();
+    </script>
+</body>
+</html>
